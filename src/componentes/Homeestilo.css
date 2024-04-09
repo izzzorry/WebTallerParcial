@@ -1,0 +1,7 @@
+.body {
+    display: flex;
+    justify-content: center;
+    padding: 3px 3%;
+    flex-direction: row;
+    gap: 30px;
+}

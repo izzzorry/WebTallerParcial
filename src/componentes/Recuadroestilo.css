@@ -1,0 +1,42 @@
+
+
+.Cuadrado {
+    background-color: #D92B8B;
+    border: 1px solid #D92B8B;
+    padding: 35px; /* Ajusta el padding para aumentar el tamaño del botón */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; /* Aumenta el tamaño del texto */
+    margin: 20px; /* Ajusta el margen para separar los botones */
+    cursor: pointer;
+    position: relative;
+    display: inline-block; /* Cambiado a inline-block */
+    border-radius: 25%;
+    z-index: 101;
+}
+
+.Cuadrado h1 {
+    position: absolute;
+    top: 175px; /* Ajusta la posición del texto */
+    left: 0;
+    right: 0;
+    margin: 0;
+    color: #F2F2F2;
+}
+
+.Cuadrado img {
+    width: 100%; /* Cambiado a 100% */
+    height: auto; /* Automático para mantener la proporción */
+}
+
+
+
+
+.BigRecuadro {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}

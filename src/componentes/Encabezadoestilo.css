@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+    color: #733657;
+
+}
+header{
+    background-color: #F2C9D8;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 6%;
+    position: sticky;
+    top: 0;
+    z-index: 105;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+.NavAbajo{
+    display: flex;
+    background-color: #D9329E;
+    justify-content: columns;
+    padding: 3px 3%;
+    position: sticky;
+    top: 0;
+    z-index: 104;
+    box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.1); 
+}
+.NavAbajo h1{
+    font-size: 20px;
+    text-decoration: none;
+    color:#F2F2F2;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Titan One", sans-serif;
+}
+
+.Logo span{
+    font-family: "Titan One", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:#D9329E;
+}
+.Logo img{
+    width: 30px;
+    margin-right: 15px;
+    display: block;
+}
+.Botones{
+display: flex;
+align-items: center;
+}
+.Botones button{
+    
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.login{
+background-color: transparent;
+border: 1px solid transparent;
+
+}
+.suscripcion{
+    border: 1px solid #F2F2F2;
+}

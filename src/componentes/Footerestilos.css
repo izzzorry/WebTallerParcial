@@ -1,0 +1,54 @@
+.footer {
+    background-color: #D9329E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan a una nueva línea si no caben en el ancho */
+    color: #F2C9D8;
+}
+.footer p{
+    font-size: small;
+}
+
+
+.Menu,
+.redes,
+.aplicativo {
+    margin-bottom: 20px; /* Ajusta el espacio entre los grupos de elementos */
+}
+
+.Menu ul,
+.redes ul,
+.aplicativo ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.Menu ul li,
+.redes ul li,
+.aplicativo ul li {
+    margin-right: 10px;
+}
+
+.Menu ul li:last-child,
+.redes ul li:last-child,
+.aplicativo ul li:last-child {
+    margin-right: 0;
+}
+
+.Menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.redes ul li a img {
+    width: 20px;
+}
+
+.aplicativo ul li a img {
+    width: 60px;
+}
